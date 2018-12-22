@@ -19,7 +19,7 @@ class App extends Component {
             <Entity
               position={{ x: 0, y: 0, z: 0 }}
               obj-model='obj: trousers.obj; mtl: trousers.mtl;'
-              animation="property: rotation; to: 0 0 360; loop: true; dur: 5000"
+              animation="property: rotation; to: 0 0 360; loop: true; dur: 6000"
               scale={{x: 0.3, y: 0.3, z: 0.3}}
               />
           </Marker>
