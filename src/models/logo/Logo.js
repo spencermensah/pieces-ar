@@ -11,7 +11,7 @@ class Logo extends Component {
           position={{ x: 0, y: 0, z: 0 }}
           obj-model='obj: logo.obj; mtl: logo.mtl;'
           animation="property: rotation; to: 0 0 360; loop: true; dur: 5000"
-          scale={{x: 0.3, y: 0.3, z: 0.3}}
+          scale={{x: 1, y: 1, z: 1}}
           />
       </Marker>
     );

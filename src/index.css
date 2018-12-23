@@ -1,19 +1,17 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 #arjsDebugUIContainer{
   visibility: hidden !important;
 }
 
 button.a-enter-vr-button{
   visibility: hidden !important;
+}
+
+.Header{
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  color: white;
 }
 
 code {

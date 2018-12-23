@@ -9,10 +9,19 @@ class App extends Component {
     //mtl: #tree-mtl
 
     return (
+      <div>
+        <div class="Header">
+          <h1>Welcome to PIECES*</h1>
+          <a href="https://www.instagram.com/p_ieces/?hl=en"> <p>follow us on instagram</p> </a>
+          <a href="https://www.shopqrate.com/shop/?category=PIECES%2A"><p>available on shopqrate</p> </a>
+        </div>
         <AFrameRenderer inherent={true}>
+
           <Logo/>
           <Trousers/>
         </AFrameRenderer>
+      </div>
+
     );
   }
 }
