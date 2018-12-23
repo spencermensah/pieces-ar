@@ -8,6 +8,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#arjsDebugUIContainer{
+  visibility: hidden !important;
+}
+
+button.a-enter-vr-button{
+  visibility: hidden !important;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
