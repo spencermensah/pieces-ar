@@ -9,7 +9,7 @@ class Trousers extends Component {
       <Marker parameters={{ preset: 'custom', type: 'pattern', patternUrl: 'pattern-B.patt'}}>
         <Entity
           position={{ x: 0, y: 0, z: 0 }}
-          obj-model='obj: trousers.obj; mtl: trousers.mtl;'
+          obj-model='obj: Bbackandfront.obj; mtl: Bbackandfront.mtl;'
           animation="property: rotation; to: 0 0 360; loop: true; dur: 6000"
           scale={{x: 0.3, y: 0.3, z: 0.3}}
           />
