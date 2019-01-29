@@ -6,7 +6,7 @@ import {Marker} from 'react-web-ar'
 class Trousers extends Component {
   render() {
     return (
-      <Marker parameters={{ preset: 'custom', type: 'pattern', patternUrl: 'pattern-B.patt'}}>
+      <Marker parameters={{ preset: 'custom', type: 'pattern', patternUrl: 'blacktext.patt'}}>
         <Entity
           position={{ x: 0, y: 0, z: 0 }}
           obj-model='obj: Bbackandfront.obj; mtl: Bbackandfront.mtl;'
