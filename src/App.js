@@ -3,6 +3,10 @@ import 'aframe-animation-component'
 import {AFrameRenderer} from 'react-web-ar'
 import Logo from './models/logo/Logo'
 import Trousers from './models/trousers/Trousers'
+import FaInstagram from 'react-icons/lib/fa/instagram';
+import FaShoppingBasket from 'react-icons/lib/fa/shopping-basket';
+import textlogoforsite from './textlogoforsite.png';
+
 
 class App extends Component {
   render() {
@@ -11,9 +15,9 @@ class App extends Component {
     return (
       <div>
         <div class="Header">
-          <h1>Welcome to PIECES*</h1>
-          <a href="https://www.instagram.com/p_ieces/?hl=en"> <p>follow us on instagram</p> </a>
-          <a href="https://www.shopqrate.com/shop/?category=PIECES%2A"><p>available on shopqrate</p> </a>
+          <a class="instagram" href="https://www.instagram.com/p_ieces/?hl=en"> <FaInstagram size={30} color="white" /> </a>
+          <a class="shopping" href="https://www.shopqrate.com/shop/?category=PIECES%2A"> <FaShoppingBasket size={30} color="white" /> </a>
+          <img src={textlogoforsite} height="70" />
         </div>
         <AFrameRenderer inherent={true}>
 

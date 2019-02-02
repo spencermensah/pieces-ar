@@ -14,6 +14,18 @@ button.a-enter-vr-button{
   color: white;
 }
 
+.instagram {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.shopping {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
