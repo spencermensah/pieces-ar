@@ -38,7 +38,7 @@ class AlertDialog extends React.Component {
                   <DialogContentText id="alert-dialog-description">
                     PLEASE SCAN BOXED IMAGE*
                   </DialogContentText>
-                  <img src={require('./ezgif.com-video-to-gif.gif')} alt="intro" height="300" />
+                  <img src={require('./logo.gif')} alt="intro" height="300" />
                 </DialogContent>
 
               </Dialog>

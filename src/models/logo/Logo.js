@@ -7,15 +7,10 @@ class Logo extends Component {
     return (
       <Marker parameters={{ preset: 'custom', type: 'pattern', patternUrl: 'pieceslogo.patt'}}>
         <Entity
-          position={{ x: 0, y: 0, z: -0.3 }}
+          position={{ x: -0.5, y: 0, z: 0 }}
           obj-model='obj: logostd.obj; mtl: logostd.mtl;'
-          animation="property: rotation; to: 0 0 360; loop: true; dur: 5000"
-          scale={{x: 0.1, y: 0.1, z: 0.1}}
-          />
-        <Entity
-          position={{ x: 0, y: 0, z: 0.4 }}
-          obj-model='obj: LogoText.obj; mtl: LogoText.mtl;'
-          scale={{x: 0.3, y: 0.3, z: 0.3}}
+          animation="property: rotation; to: 360 0 0; loop: true; dur: 5000"
+          scale={{x: 0.15, y: 0.15, z: 0.15}}
           />
       </Marker>
     );
