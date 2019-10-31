@@ -4,9 +4,10 @@ import {Entity} from 'aframe-react';
 import {Marker} from 'react-web-ar'
 
 class Trousers extends Component {
+
   render() {
     return (
-      <Marker parameters={{ preset: 'custom', type: 'pattern', patternUrl: 'blacktext.patt'}}>
+      <Marker parameters={{ preset: 'custom', type: 'pattern', patternUrl: 'pieceslogo.patt'}}>
         <Entity
           position={{ x: 0, y: 0, z: 0 }}
           obj-model='obj: shouldwork.obj; mtl: shouldwork.mtl;'

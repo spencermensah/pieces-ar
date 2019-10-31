@@ -9,27 +9,48 @@ import FaShoppingBasket from 'react-icons/lib/fa/shopping-basket';
 
 
 class App extends Component {
+  constructor(props) {
+      super(props);
 
+      this.state = {
+        isLoggedIn: false
+      };
+}
+handleClickOpen = () => {
+  if (this.state.isLoggedIn === false){
+    this.setState({isLoggedIn: false})
+  }
+  else {
+    this.setState({isLoggedIn: true})
+  }
+};
 
   render() {
-    //mtl: #tree-mtl
+    const isLoggedIn = this.state.isLoggedIn;
+    let button;
+
+    if (isLoggedIn) {
+      button = <Logo/>;
+    } else {
+      button = <Trousers/>;
+
 
     return (
       <div>
         <div class="Header">
           <a class="instagram" href="https://www.instagram.com/p_ieces/?hl=en"> <FaInstagram size={30} color="white" /> </a>
           <a class="shopping" href="http://piecesclothing.com/"> <FaShoppingBasket size={30} color="white" /> </a>
+          <p onClick={this.handleClickOpen}>Switch Model</p>
           <AlertDialog/>
         </div>
         <AFrameRenderer inherent={true}>
-
-          <Logo/>
-          <Trousers/>
+          {button}
         </AFrameRenderer>
       </div>
 
     );
   }
+}
 }
 
 export default App;
