@@ -5,7 +5,7 @@ import {Marker} from 'react-web-ar'
 class Logo extends Component {
   render() {
     return (
-      <Marker parameters={{ preset: 'custom', type: 'pattern', patternUrl: 'pieceslogo.patt'}}>
+      <Marker parameters={{ preset: 'custom', type: 'pattern', patternUrl: 'blacktext.patt'}}>
         <Entity
           position={{ x: -0.5, y: 0, z: 0 }}
           obj-model='obj: logostd.obj; mtl: logostd.mtl;'
