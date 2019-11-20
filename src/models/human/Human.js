@@ -6,7 +6,7 @@ import {Marker} from 'react-web-ar'
 class Human extends Component {
   render() {
     return (
-      <Marker parameters={{ preset: 'custom', type: 'pattern', patternUrl: 'blacktext.patt'}}>
+      <Marker parameters={{ preset: 'custom', type: 'pattern', patternUrl: 'pattern-newmaker-nobord-red.patt'}}>
         <Entity
           position={{ x:0.4 , y: 2.6, z: 0 }}
           obj-model='obj: logostd.obj; mtl: logostd.mtl;'
