@@ -25,6 +25,7 @@ class App extends Component {
         <AFrameRenderer inherent={true}>
            <Logo/>
         </AFrameRenderer>
+        <h5 class="select">Powered by Crea Cö</h5>
       </div>
 
 

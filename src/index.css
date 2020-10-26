@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
 #arjsDebugUIContainer{
   visibility: hidden !important;
 }
@@ -12,6 +14,16 @@ button.a-enter-vr-button{
   text-align: center;
   z-index: 1;
   color: white;
+}
+
+.select {
+    z-index: 1;
+    position:absolute;
+    bottom: 5px;
+    left: 30%;
+    text-align: center;
+    padding: 1%;
+    color: white;
 }
 
 .instagram {
