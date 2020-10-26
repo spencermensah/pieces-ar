@@ -17,13 +17,13 @@ button.a-enter-vr-button{
 }
 
 .select {
-    z-index: 1;
-    position:absolute;
-    bottom: 5px;
-    left: 30%;
-    text-align: center;
-    padding: 1%;
+    position: fixed;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
     color: white;
+
 }
 
 .instagram {
