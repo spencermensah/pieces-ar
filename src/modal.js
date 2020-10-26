@@ -3,7 +3,7 @@ import Dialog from '@material-ui/core/Dialog';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
-import textlogoforsite from './textlogoforsite.png';
+import textlogoforsite from './org.png';
 
 
 class AlertDialog extends React.Component {
@@ -25,7 +25,7 @@ class AlertDialog extends React.Component {
       render() {
           return (
             <div>
-              <img src={textlogoforsite} alt="header" onClick={this.handleClickOpen} height="70" />
+              <img src={textlogoforsite} alt="header" onClick={this.handleClickOpen} height="100" />
               <Dialog
                 open={this.state.open}
                 onClose={this.handleClose}
